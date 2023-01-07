@@ -1,0 +1,185 @@
+
+
+.Overview {
+    width: 100%;
+    box-sizing: border-box;
+
+    .cards {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    .hero__cards {
+        margin: 2rem 0;
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        border-radius: 8px;
+        border: 1px solid #DFE0EB;
+
+        &-page:last-child {
+            width: 30%;
+            border: 1px solid #DFE0EB;
+            text-align: center;
+            padding: 0;
+        }
+
+        &-page {
+            width: 35%;
+            padding: 1.5rem;
+
+            p {
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 16px;
+                letter-spacing: 0.1px;
+                color: #9FA2B4;
+                margin: 10px 0;
+            }
+
+            h2 {
+                font-weight: 700;
+                font-size: 19px;
+                line-height: 24px;
+                letter-spacing: 0.4px;
+                color: #252733;
+            }
+        }
+
+        &-page:nth-child(2) {
+            display: flex;
+            justify-content: end;
+            gap: 2rem;
+
+            .days {
+                display: flex;
+                align-items: center;
+                height: 40px;
+
+                span {
+                    display: block;
+                    width: 20px;
+                    height: 1px;
+                    margin: 0 10px;
+                    background-color: #3751FF;
+                    border-radius: 5px;
+                }
+
+                .second {
+                    background-color: #DFE0EB;
+                }
+            }
+        }
+    }
+
+    .hero__page {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        &-card {
+            width: 48%;
+            background: #FFFFFF;
+            border: 1px solid #DFE0EB;
+            border-radius: 8px;
+            padding: 1rem;
+            box-sizing: border-box;
+
+            .hero__page-top {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+
+                h4 {
+                    font-size: 19px;
+                    line-height: 24px;
+                    letter-spacing: 0.4px;
+                    color: #252733;
+                    font-weight: 100;
+                }
+
+                h5 {
+                    font-size: 14px;
+                    line-height: 20px;
+                    letter-spacing: 0.2px;
+                    color: #3751FF;
+                    font-weight: 100;
+                }
+            }
+            a{
+                text-decoration: none;
+                color: white;
+            }
+            .support {
+                margin: 10px 0 15px;
+            }
+            .add{
+                background: #29CC97;
+                padding: 5px;
+                color: white;
+                    border-radius: 15px;
+            }
+            p {
+                font-weight: 100;
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 0.2px;
+                color: #9FA2B4;
+            }
+
+            li {
+                display: flex;
+                justify-content: space-between;
+                padding: 10px 0;
+                border-bottom: 1px solid #DFE0EB;
+            }
+            input{
+                width: 25px;
+                height: 25px; 
+                margin-right: 10px;
+            }
+            .box{
+                display: flex;
+            }
+            .default{
+                background: #FFFFFF;
+                border: 1px solid #DFE0EB;
+                border-radius: 8px;
+                padding: 5px 12px;
+                font-weight: 700;
+                color: #9FA2B4;
+            }
+            .new{
+                background: #29CC97;
+                padding: 5px 12px;
+                color: white;
+                font-weight: 700;
+                border: none;
+                border-radius: 8px;
+            }
+            .urgent{
+                background: #FEC400;
+                padding: 5px 12px;
+                color: white;
+                font-weight: 700;
+                border: none;
+                border-radius: 8px;
+            }
+            .create{ 
+                width: 600px;
+                height: 30px;
+                border: none;
+                outline: none;
+            }
+            .create::placeholder{
+                color: #C5C7CD;
+            }
+            .add{
+                border: none;
+                pointer-events: painted;
+            }
+        }
+    }
+}

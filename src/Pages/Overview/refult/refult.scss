@@ -1,0 +1,20 @@
+.card__item {
+    border-bottom: 1px solid #DFE0EB;
+    padding: 1rem;
+
+    &-title {
+        font-weight: 100;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.3px;
+        color: #9FA2B4;
+    }
+
+    &-count {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: 0.3px;
+        color: #252733;
+    }
+}
